@@ -1,0 +1,5 @@
+[Dockerdocs](https://docs.docker.com/reference/dockerfile/)  
+[POSTGRES: Docker official image](https://hub.docker.com/_/postgres)  
+[POSTGRES: pg_isready](https://www.postgresql.org/docs/current/app-pg-isready.html)  
+[learn SQL](https://www.w3schools.com/sql/)  
+[National Vulnerability Database](https://nvd.nist.gov/)  
