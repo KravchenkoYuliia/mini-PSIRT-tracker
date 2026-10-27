@@ -15,5 +15,14 @@ services:
       timeout: 3s
       retries: 10
 
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    env_file: .env
+    depends_on:
+      db:
+        condition: service_healthy
+
 volumes:
   ps_data:
