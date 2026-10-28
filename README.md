@@ -29,8 +29,10 @@ It is only wiped when you explicitly remove the volume.
 
 ### 2. Backend (Java)
 
-REST API that exposes the data to the frontend and contains the
-business logic.
+Using JDBC (Java database connectivity) to connect to a PostgreSQL database server.
+JDBC is a Java API used to connect to database, send queries, retrieve and process the response to a query. With JDBC, a database is represented by a URL (Uniform Resource Locator):  ```jdbc:postgresql://host:port/database```
+
+Using `SpringBoot` framework to build a Java backend server, develop REST APIs, connect a PostgreSQL database, and enable communication between the frontend and backend. Using `Maven` (`pom.xml`) to manage project dependencies, configure the build process, and integrate `Spring Boot`.
 
 ### 3. Frontend (Vue.js)
 
