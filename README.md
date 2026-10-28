@@ -34,6 +34,10 @@ JDBC is a Java API used to connect to database, send queries, retrieve and proce
 
 Using `SpringBoot` framework to build a Java backend server, develop REST APIs, connect a PostgreSQL database, and enable communication between the frontend and backend. Using `Maven` (`pom.xml`) to manage project dependencies, configure the build process, and integrate `Spring Boot`.
 
+Backend runs in a Docker container, which is created in two stages:  
+- the first stage compiles the Java code and packages the application and its dependencies into an executable .jar archive;  
+- the second stage runs it using Java Runtime Environment (JRE).
+
 ### 3. Frontend (Vue.js)
 
 Dashboard and case views: open cases, severity distribution, case details.
@@ -49,7 +53,7 @@ No local Java, Node.js or PostgreSQL installation is needed.
 ### Start
 
 ```bash
-docker compose up -d
+docker compose up --build
 ```
 
 ### Stop
