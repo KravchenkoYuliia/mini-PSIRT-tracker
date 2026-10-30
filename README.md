@@ -1,4 +1,5 @@
-# PSIRT Helper
+# Vulnerabilities Tracker
+![Status: Work in Progress](https://img.shields.io/badge/status-work--in--progress-orange)
 
 A small educational project built to learn how a Product Security
 Incident Response Team (PSIRT) works in practice.
@@ -8,6 +9,8 @@ severity (CVSS), and the case lifecycle from report to published advisory.
 
 This is a learning project, which goal is to show how these concepts translate into a data model,
 an API, and a simple dashboard.
+
+![localhost:5173](images/localhost:5173.png)
 
 ## Architecture
 
